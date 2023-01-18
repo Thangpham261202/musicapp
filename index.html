@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="wraper">
+        <div class="navigation">
+          <i class="fa-solid fa-angle-left"></i>
+          <i class="fa-sharp fa-solid fa-list"></i>
+        </div>
+
+        <div class="music-player">
+          <img src="./labori/744418.jpg" alt="Trúc Nhân" />
+          <h1>Tôi thấy hoa vàng trên cỏ xanh</h1>
+          <p>Trúc nhân & Ái Phương</p>
+          <audio id="song">
+            <source
+              src="./labori/y2mate.com - XHTDRLX2  Tôi Thấy Hoa Vàng Trên Cỏ Xanh  Ái Phương x Trúc Nhân lần đầu kết hợp cùng nhau.mp3"
+            />
+          </audio>
+          <input type="range" name="" id="range" />
+          <div class="control">
+            <i class="fa-solid fa-backward"></i>
+            <i onclick="myFunction()" class="fa-solid fa-play" id="plays"></i>
+            <i class="fa-solid fa-forward"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
